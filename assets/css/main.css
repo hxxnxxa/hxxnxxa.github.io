@@ -3122,6 +3122,12 @@ input, select, textarea {
 					display: block;
 					margin: 0 auto;
 					max-width: 75%;
+					width: 100px;
+					height: 100px;
+					border-radius: 10px;
+					-moz-border-radius: 10px;
+					-khtml-border-radius: 10px;
+					-webkit-border-radius: 10px;
 				}
 
 		@media screen and (max-width: 1280px) {
