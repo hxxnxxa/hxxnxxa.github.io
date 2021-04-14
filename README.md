@@ -1,3 +1,3 @@
 # myPortfolio</br></br>
-site URL : https://hxxnxxa.github.io/myPortfolio/ </br>
+URL : https://hxxnxxa.github.io/myPortfolio/ </br>
 This project is in progress.
