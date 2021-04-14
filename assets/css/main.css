@@ -24,13 +24,12 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	text-align: center;
+	
 }
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
-	text-align: center;}
+	display: block;}
 
 body {
 	line-height: 1;
@@ -201,13 +200,11 @@ input, select, textarea {
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
 		letter-spacing: -0.025em;
-		text-align: center;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
-			text-align: center;
 		}
 
 	h1 {
@@ -322,7 +319,6 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		text-align: center;
 	}
 
 	blockquote {
@@ -2649,7 +2645,6 @@ input, select, textarea {
 
 		header.major h2 {
 			font-size: 2em;
-			text-align: center;
 		}
 
 			header.major h2:after {
@@ -2659,13 +2654,11 @@ input, select, textarea {
 				height: 2px;
 				margin: 0.7em 0 1em 0;
 				border-radius: 2px;
-				text-align: center;
 			}
 
 				section.special header.major h2:after, article.special header.major h2:after {
 					margin-left: auto;
 					margin-right: auto;
-					text-align: center;
 				}
 
 		header.major p {
@@ -2680,7 +2673,6 @@ input, select, textarea {
 			header.major.special h2:after {
 				margin-left: auto;
 				margin-right: auto;
-				text-align: center;
 			}
 
 	footer.major {
@@ -2696,7 +2688,6 @@ input, select, textarea {
 
 			header.major h2 {
 				font-size: 1.5em;
-				text-align: center;
 			}
 
 			header.major p {
@@ -2717,7 +2708,6 @@ input, select, textarea {
 
 	header.major h2:after {
 		background-color: rgba(255, 255, 255, 0.35);
-		text-align: center;
 	}
 
 /* Table */
@@ -3047,7 +3037,6 @@ input, select, textarea {
 					.spotlight .content header.major h2:after {
 						margin-left: auto;
 						margin-right: auto;
-						text-align: center;
 					}
 
 					.spotlight .content .actions {
