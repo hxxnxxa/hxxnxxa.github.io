@@ -3699,6 +3699,8 @@ input, select, textarea {
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
+		text-align: center;
+		align-items: center;
 	}
 
 		#footer > * {
@@ -3728,6 +3730,7 @@ input, select, textarea {
 				display: block;
 				margin: 0 0 3em 0;
 				width: 100%;
+				
 			}
 
 				#footer > * {
