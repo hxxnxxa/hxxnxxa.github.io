@@ -25,9 +25,9 @@ const send = async (data) => {
 const content = {
     from:"hyunhw92@hanmail.net",
     to: "4b327dd92d-8406e0@inbox.mailtrap.io",
-    subject: "email practice",
-    //text: "email practice - nodemailer를 이용한 이메일 보내기 연습"
-    html: "<h2>email practice - nodemailer를 이용한 이메일 보내기 연습</h2>"
+    subject: "portfolio inquiry",
+    text: "email practice - nodemailer를 이용한 이메일 보내기 연습"
+    //html: "<h2>email practice - nodemailer를 이용한 이메일 보내기 연습</h2>"
 };
 
 send(content);
