@@ -52,7 +52,7 @@
     <div id="lead">
         <div id="lead-content">
 			<h1>오현화</h1></br>
-            <p>저는 <span class="typed"></span></p>
+            <p><h2><span id="typed1"></span></h2></p>
 			<!-- <h2>반가워요! 저는 백엔드 개발자입니다.</h2> -->
             <!-- <a href="#" class="btn-rounded-white">이력서 다운로드</a> -->
         </div>
@@ -317,25 +317,26 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
+    <script type="text/javascript" src="/post_inc/javascript/Typed.js"></script>
     <script>
-    (function () {
-      "use strict";
-
-      const typedItems = [
-        '소프트웨어 기술을 통해 세상에 선한 영향력을 주고 싶은 22년차 소프트웨어 개발자입니다.',
-        '지식을 나누는 것을 좋아하고 항상 새로운 기술을 익히는 것을 즐겨요.'
-      ]; //typedItems
-
-      const typed = document.querySelector('.typed')
-      if (typed) {
-        new Typed('.typed', {
-          strings: typedItems,
-          loop: true,
-          typeSpeed: 50,
-          backSpeed: 30,
-          backDelay: 2000
-        });
-      })()
+        $(function(){
+	        var typed2 = new Typed('#typed1', {
+		        strings: [
+                '반가워요!', 
+                '저는 백엔드 개발자 입니다.', 
+                '제 홈페이지에 와주셔서 감사합니다!',
+                '상단 네비게이션 바 또는 스크롤을 이용해 주세요 😊',
+                '이 홈페이지는 계속해서 수정 보완하고 있습니다.',
+                '오늘도 화이팅!'
+                ],
+		        typeSpeed: 100,
+		        backSpeed: 100,
+		        fadeOut: false,
+		        smartBackspace: true,
+		        cursorChar: '_',
+		        loop: true
+	        });
+        })
     </script>
 </body>
 
