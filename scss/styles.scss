@@ -115,7 +115,7 @@ body {
                 font-size: 1.2em;
                 font-weight: 300;
                 color: #7e8890;
-                margin: 0 0 15px 0;
+                margin: 0 0 15px;
             }
 
             p {
@@ -125,19 +125,20 @@ body {
             }
         }
 
-        &:before, &:after {
+        &:after,
+        &:before {
             content: none;
         }
     }
 }
 
 @keyframes dropHeader {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 header {
@@ -206,12 +207,12 @@ header {
     position: fixed;
     right: 15px;
     top: 10px;
-    color: $base-color;
+    color: #3498db;
     font-size: 1.5em;
     z-index: 20;
     padding: 0 7px;
     border-radius: 4px;
-    background: $background;
+    background: #fff;
 }
 
 #mobile-menu-close {
@@ -254,12 +255,12 @@ footer {
     span {
         cursor: pointer;
         display: block;
-        margin: 15px auto 0 auto;
+        margin: 15px auto 0;
         width: 35px;
         height: 35px;
         border-radius: 50%;
         border: 3px solid lighten($text, 25%);
-        text-align:center;
+        text-align: center;
     }
 
     i {
@@ -271,7 +272,7 @@ footer {
     text-align: right;
 
     ul {
-        margin: 5px 0 0 0;
+        margin: 5px 0 0;
         padding: 0;
     }
 
@@ -320,7 +321,7 @@ footer {
     display: inline-block;
     font-size: 2em;
     font-weight: 300;
-    margin: 0 0 30px 0;
+    margin: 0 0 30px;
 
     &:after {
         position: absolute;
@@ -350,7 +351,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url("../images/lead-bg.jpg");
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -364,7 +365,8 @@ footer {
     transform: translate(-50%, -50%);
     text-align: center;
 
-    h1, h2 {
+    h1,
+    h2 {
         margin: 0;
     }
 
@@ -415,13 +417,13 @@ footer {
         height: 35px;
         border-radius: 50%;
         border: 3px solid lighten($base-color, 25%);
-        text-align:center;
+        text-align: center;
     }
 
     i {
         animation: pulsate 1.5s ease;
         animation-iteration-count: infinite;
-        padding-top: 5px;;
+        padding-top: 5px;
     }
 }
 
@@ -476,7 +478,7 @@ footer {
 }
 
 #experience-timeline {
-    margin: 30px auto 0 auto;
+    margin: 30px auto 0;
     position: relative;
     max-width: 1000px;
 
@@ -525,7 +527,7 @@ footer {
         font-size: 1.2em;
         font-weight: 300;
         color: #7e8890;
-        margin: 0 0 15px 0;
+        margin: 0 0 15px;
     }
 
     p {
@@ -577,7 +579,7 @@ footer {
 */
 
 #education {
-    padding: 50px 15px 20px 15px;
+    padding: 50px 15px 20px;
     border-bottom: 1px solid $border;
     text-align: center;
 
@@ -589,7 +591,7 @@ footer {
 
 .education-block {
     max-width: 700px;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 30px;
     padding: 15px;
     border: 1px solid $border;
     text-align: left;
@@ -610,10 +612,11 @@ footer {
         color: $text;
         clear: both;
         font-weight: 500;
-        margin: 0 0 15px 0;
+        margin: 0 0 15px;
     }
 
-    p, ul {
+    p,
+    ul {
         margin: 0;
         color: $text;
         font-size: 0.9em;
@@ -644,7 +647,7 @@ footer {
 .project {
     position: relative;
     max-width: 900px;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 30px;
     overflow: hidden;
     background: #fff;
     border-radius: 4px;
@@ -665,12 +668,12 @@ footer {
         font-size: 1.5em;
         font-weight: 300;
         color: $heading;
-        margin: 0 0 15px 0;
+        margin: 0 0 15px;
     }
 
     p {
         color: $text;
-        margin: 0 0 15px 0;
+        margin: 0 0 15px;
         font-size: 0.9em;
     }
 }
@@ -734,7 +737,7 @@ footer {
     text-align: center;
 
     h2 {
-        margin: 0 0 15px 0;
+        margin: 0 0 15px;
         color: #fff;
         font-weight: 500;
     }
@@ -744,7 +747,8 @@ footer {
     max-width: 500px;
     margin: 0 auto;
 
-    input, textarea {
+    input,
+    textarea {
         display: block;
         width: 100%;
         padding: 10px;
@@ -805,7 +809,7 @@ footer {
 
 .optional-section-block {
     max-width: 700px;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 30px;
     padding: 15px;
     border: 1px solid $border;
     background: #fff;
@@ -813,7 +817,7 @@ footer {
 
     h3 {
         font-weight: 500;
-        margin: 0 0 15px 0;
+        margin: 0 0 15px;
         color: $heading;
     }
 
@@ -821,11 +825,12 @@ footer {
         color: $text;
         clear: both;
         font-weight: 500;
-        margin: 0 0 15px 0;
+        margin: 0 0 15px;
     }
 
-    p, ul {
-        margin: 0 0 15px 0;
+    p,
+    ul {
+        margin: 0 0 15px;
         color: $text;
         font-size: 0.9em;
     }
@@ -845,7 +850,8 @@ footer {
 @media only screen and (max-width: 750px) {
 
     #experience-timeline {
-        &:before, &:after {
+        &:after,
+        &:before {
             left: 23px;
         }
 
@@ -917,7 +923,8 @@ footer {
         height: 100%;
     }
 
-    #mobile-menu-open, #mobile-menu-close {
+    #mobile-menu-close,
+    #mobile-menu-open {
         display: block;
     }
 
@@ -953,7 +960,8 @@ footer {
     }
 
     .education-block {
-        h3, span {
+        h3,
+        span {
             float: none;
         }
     }
