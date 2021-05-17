@@ -1,4 +1,4 @@
-<h2>My Portfolio</h2>
+<h2>myPortfolio</h2>
 URL : https://hxxnxxa.github.io/myPortfolio/
 </br>
 </br>
