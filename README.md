@@ -2,7 +2,6 @@
 URL : https://hxxnxxa.github.io/myPortfolio/
 </br>
 </br>
-How funny!</br>
 This project is still being updated. 😊👩🏻‍💻
 </br>
 </br>
