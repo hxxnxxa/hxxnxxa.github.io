@@ -1,5 +1,5 @@
 <h2>myPortfolio</h2>
-URL : https://hxxnxxa.github.io/myPortfolio/
+URL : https://hxxnxxa.github.io/
 </br>
 </br>
 This project is still being updated. 😊👩🏻‍💻
