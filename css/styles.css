@@ -46,6 +46,7 @@ body.active {
 .no-js #experience-timeline:before {
     content: none;
 }
+
 @keyframes dropHeader {
     0% {
         transform: translateY(-100%);
@@ -349,6 +350,16 @@ footer {
     top: 100%;
     left: 303px;
 }
+
+#acitivities {
+    padding: 50px 15px;
+    text-align: center;
+    border-bottom: 1px solid #dcd9d9;
+}
+#acitivities h2 {
+    color: #374054;
+}
+
 .vtimeline-content {
     margin-left: 350px;
     background: #fff;
@@ -404,6 +415,7 @@ footer {
     left: 0;
     top: 10px;
     font-weight: 300;
+   
     color: #374054;
 }
 #education {
@@ -685,8 +697,6 @@ footer {
         display: block;
     }
     #menu {
-        position: fixed;
-        top: 0;
         height: 100%;
         overflow-y: auto;
         box-shadow: none;
