@@ -7,4 +7,4 @@ URL : https://hxxnxxa.github.io/
 </p>
 </br>
 <h4>이슈사항</h4>
-<li>깃허브 아이콘이 뜨질않네용</li>
+<li>깃허브 파비콘이 뜨질않네용</li>
