@@ -8,3 +8,5 @@ URL : https://hxxnxxa.github.io/
 </br>
 <h4>이슈사항</h4>
 <li>깃허브 파비콘이 뜨질않네용</li>
+<li>porfolio에 깃허브 href를 줬는데 연결이 안되네용</li>
+<li>그저 울지용?</li>
