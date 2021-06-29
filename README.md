@@ -1,5 +1,5 @@
-<h2>myPortfolio</h2>
-URL : https://hxxnxxa.github.io/
+<h2>This is my own homepage in Korea 😊</h2>
+URL : https://hxxnxxa.github.io/portfolio_kor
 </br>
 <p align="center">
   <h4>미리보기</h4>
