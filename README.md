@@ -1,4 +1,4 @@
-<h2>My Own Hompage 😊</h2>
+<h2>My own hompage 😊</h2>
 
 </br>
 
